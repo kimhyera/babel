@@ -96,7 +96,7 @@ npm install --save-dev babel-preset-minify
 	"presets": ["es2015", "minify"]
 }
 ```
-
+<!-- 
 npm run build 수행 시 "Couldn't find intersection" 에러가 날 경우,
 .babelrc 파일을 아래와 같이 바꾸어 주자.
 
@@ -108,5 +108,5 @@ npm run build 수행 시 "Couldn't find intersection" 에러가 날 경우,
 	]
 }
 ```
-
+ -->
 
