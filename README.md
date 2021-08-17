@@ -6,9 +6,12 @@
 공식 문서 : https://babeljs.io/
 
 
-# bael cdn
+# bael cdn 방법 
 
-<script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.4.3/polyfill.js"></script>
+  //script type 에 text/babel 을 설정하면 es6 구문을 사용할 수 있다.
+  <script type="text/babel" data-presets="es2015, stage-3" src="js/main.js"></script>
 
 
 # babel cli setting
