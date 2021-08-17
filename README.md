@@ -6,12 +6,12 @@
 공식 문서 : https://babeljs.io/
 
 
-#bael cdn
+# bael cdn
 
 <script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
 
-#babel cli setting
+# babel cli setting
 
 ## 초기화
 
