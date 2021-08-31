@@ -3,6 +3,12 @@
 자바스크립트 컴파일러로 
 최신자바스크립트 코드(ES6)를 하위버전 코드로 변환할수 있다. 
 
+## babel-polyfill
+babel-polyfill은 ES6+에서 새롭게 추가된 
+Promise, WeakMap와 같은 내장객체나 Array.from, Object.assign와 같은
+정적 메소드를 구형 브라우저에서도 작동할 수 있도록 변환해주는 도구다. 
+
+
 공식 문서 : https://babeljs.io/
 
 
